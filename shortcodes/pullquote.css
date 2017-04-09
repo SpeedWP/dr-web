@@ -1,0 +1,96 @@
+blockquote.blockquote--alt{
+	width: 90%;
+	padding: 20px 0px;
+	margin: 20px 5%;
+	border-top: 5px solid #c2272d;
+	border-bottom: 5px solid #c2272d;
+	border-left: 0;
+	float: left;
+	font-size: 16px;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
+@media (min-width: 500px) {
+    blockquote.blockquote--alt {
+        max-width: 50%;
+    }
+}
+
+blockquote.blockquote--alt p{
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+blockquote.blockquote--alt p:last-of-type{
+	margin-bottom: 0;
+}
+
+blockquote.blockquote--alt .socialsharing{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+blockquote.blockquote--alt .socialsharing a{
+	margin: 5px 0px 0px 5px;
+}
+
+.socialsharing{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+
+.socialsharing.has-border-top{
+	border-top: 1px solid #eee; 
+}
+
+.socialsharing.has-border-bottom{
+	border-bottom: 1px solid #eee;
+}
+
+.socialsharing a.sharing{
+	display: inline-block;
+	border-bottom: none;
+	margin: 5px 5px 5px 0;
+}
+.socialsharing a.sharing:before{
+	height: 25px;
+	width: 25px;
+	content: '';
+	display: inline-block;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+}
+.socialsharing a.sharing--email:before{
+	background: url(../images/icons/sharing/email.png);
+}
+.socialsharing a.sharing--facebook:before{
+	background: url(../images/icons/sharing/facebook.png);
+}
+.socialsharing a.sharing--twitter:before{
+	background: url(../images/icons/sharing/twitter.png);
+}
+.socialsharing a.sharing--googleplus:before{
+	background: url(../images/icons/sharing/googleplus.png);
+}
+.socialsharing a.sharing--pinterest:before{
+	background: url(../images/icons/sharing/pinterest.png);
+}
+.socialsharing a.sharing--stumbleupon:before{
+	background: url(../images/icons/sharing/stumbleupon.png);
+}
+.socialsharing a.sharing--whatsapp:before{
+	background: url(../images/icons/sharing/whatsapp.png);
+}
+.socialsharing a.sharing--linkedin:before{
+	background: url(../images/icons/sharing/linkedin.png);
+}
+.socialsharing a.sharing--xing:before{
+	background: url(../images/icons/sharing/xing.png);
+}
+.socialsharing a span{
+	display: none;
+}

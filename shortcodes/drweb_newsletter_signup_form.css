@@ -1,0 +1,34 @@
+/* MailChimp newsletter signup form */
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+
+body #mc_embed_signup form {
+	padding: 0;
+}
+
+body #mc_embed_signup input.button {
+	background-color: #c3212b;
+	transition: background-color 0.25s;
+}
+
+body #mc_embed_signup input.button:hover {
+	background-color: #000000;
+}
+
+body #mc_embed_signup input.button {
+	width: 58%;
+	box-sizing: border-box;
+}
+
+body #mc_embed_signup input.email {
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+.side-widget #mc_embed_signup input.button {
+	width: 100%;
+}
+
+.side-widget #mc_embed_signup input.email {
+	width: 100%;
+}

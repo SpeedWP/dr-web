@@ -1,0 +1,16 @@
+.header-widget.widget_drweb_widgets_socialmedia_compact {
+	position: relative;
+	top: 10px;
+	margin-right: 5px;
+}
+
+.header-widget.widget_drweb_widgets_socialmedia_compact img {
+	height: 32px;
+	width: 32px;
+	margin-right: 5px;
+}
+
+.header-widget.widget_drweb_widgets_socialmedia_compact a.google-plus {
+	position: relative;
+	top: 0px;
+}

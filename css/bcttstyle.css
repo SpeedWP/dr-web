@@ -1,0 +1,79 @@
+/*****
+Dr.Web 2.0 - Better Click to Tweet Styles
+Theme URI: https://www.drweb.de/magazin/
+Author: Andreas Hecht
+Author URI: http://andreas-hecht.com
+Version: 1.0.0
+*****/
+
+.bctt-click-to-tweet {
+    display: block;
+    background-color: #fff;
+    position: relative;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 10px 20px 19px 20px;
+    margin: 30px 0;
+}
+
+.bctt-click-to-tweet:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.bctt-ctt-text a {
+	color: #444 !important;
+	font-style: italic;
+	position: relative;
+    font-size: 22px !important;
+    padding: 25px 0 0 44px;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    display: inline-block;
+    line-height: 1.5
+}
+.bctt-ctt-text a:before {
+	color: #0093C2;
+	content: "\201C";
+	font-family: Georgia, serif;
+	font-size: 84px;
+	left: -5px;
+	line-height: 1;
+	position: absolute;
+	top: 22px;
+}
+
+.single .bctt-ctt-text a:hover {
+    text-decoration: none;
+    color: #0093C2 !important;
+}
+
+a.bctt-ctt-btn {
+    border-bottom: none !important;
+    margin: 0;
+    padding: 10px 0 0 0;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: .7em;
+    font-weight: bold;
+    color: #aaa !important;
+    float: right;
+    text-decoration: none !important;
+}
+a.bctt-ctt-btn:before {
+    content: "\f099";
+    font-family: Fontawesome;
+    font-size: 1.5em;
+    color: #55abf4;
+    padding-right: 5px;
+}
+
+.bctt-ctt-btn:hover {
+    text-decoration: none;
+    color: #666666 !important;
+}
